@@ -13,7 +13,7 @@ export default async function MarketingLayout({
   return (
     <>
       <Header user={user} profile={profile} />
-      <main style={{ flex: 1 }}>{children}</main>
+      <main style={{ flex: 1, padding: '0 24px' }}>{children}</main>
       <Footer />
     </>
   );
